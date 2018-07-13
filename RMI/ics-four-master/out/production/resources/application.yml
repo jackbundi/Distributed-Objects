@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ics-four
+server:
+  port: 8080
+
+logging:
+  level:
+    com.ics.four: debug
+    feign: debug
